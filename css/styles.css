@@ -979,7 +979,7 @@ img{
 }
 .modal-form-massege::placeholder{
 
-      text-transform: uppercase;
+      
       color: rgba(117, 117, 117, 0.5);
 
 
@@ -1019,11 +1019,11 @@ img{
 
 }
 
-.modal-form-checkbox:focus + 
+/* .modal-form-checkbox:focus + 
 .modal-form-checkbox-label::before{
-
+                 
       outline: 2px solid var(--akcent-color);
-}
+} */
 
 
 
