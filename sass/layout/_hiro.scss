@@ -1,0 +1,39 @@
+.hiro{
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/background-hiro.jpg);
+    max-width: 1600px;
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2F303A;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-hiro{
+    text-align: center;
+    padding: 200px 0;
+    
+        &__title {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        
+            color: #FFFFFF;
+        
+            width: 696px;
+            
+            margin-top: 0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+    }
+}
+
+
+

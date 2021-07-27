@@ -11,29 +11,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 
 </head>
 <body>
-    <header class="page-header">
+    <header class="header">
         <div class="container container-header">
-            <nav class="nav-list">
+            <nav class="navigation">
 
-                <a class="logo" href="./index.html"><span class="blue-logo">Web</span>Studio</a>
+                <a class="logo logo__header" href="./index.html"><span class="logo__decorated_blue">Web</span>Studio</a>
 
                 <!--menu-->
-                <ul class="list menu">
-                    <li class="item-menu"><a href="./index.html" class="current menu link-underline-studio">Студия</a></li>
-                    <li class="item-menu"><a href="portfolio.html" class="menu">Портфолио</a></li>
-                    <li class="item-menu"><a href="#" class="menu ">Контакты</a></li>
+                <ul class="menu list">
+                    <li class="menu__item"><a href="./index.html" class="link menu__link menu_link_current_underline">Студия</a></li>
+                    <li class="menu__item"><a href="portfolio.html" class="link menu__link">Портфолио</a></li>
+                    <li class="menu__item"><a href="#" class="link menu__link">Контакты</a></li>
                 </ul>
             </nav>
 
                 <ul class="list contacts  ">
-                    <li class="emeil contacts-link-heder">
-                        <a href="mailto:info@devstudio.com" class="contacts-heder akcent-link">
-                            <span class="contacts-heder-icon" >
-                                <svg class="email-icon akcent-icon" width="16" height="12">
+                    <li class="contacts__heder">
+                        <a href="mailto:info@devstudio.com" class="contacts__link-heder contacts_link_heder_akcent">
+                            <span class="contacts__heder-icon" >
+                                <svg class="contacts__icon contacts_akcent_icon" width="16" height="12">
                                     <use href="./images/sprite.svg#email">
                                 
                                     </use>
@@ -47,10 +47,10 @@
                             
                         </a>
                     </li>
-                    <li class="contacts-link-heder">
-                        <a href="tel:+380961111111" class="contacts-heder akcent-link ">
-                            <span class="contacts-heder-icon" >
-                                <svg class="tel-icon akcent-icon" width="10" height="16">
+                    <li class="contacts__heder">
+                        <a href="tel:+380961111111" class="contacts__link-heder contacts_link_heder_akcent">
+                            <span class="contacts__heder-icon" >
+                                <svg class="contacts__icon contacts_akcent_icon" width="10" height="16">
                                     <use href="./images/sprite.svg#smartphone">
                                 
                                     </use>
@@ -65,10 +65,10 @@
         </div>
     </header>
         <main>
-                <section class="list-hiro">
+                <section class="hiro">
 
                     <div class="container container-hiro">
-                            <h1 class="hiro">Эффективные решения для вашего бизнеса</h1>
+                            <h1 class="container-hiro__title">Эффективные решения для вашего бизнеса</h1>
                             <button type="button" class="order-service" data-modal-open>Заказать услугу</button>
 
                     </div>
@@ -451,7 +451,7 @@
             <div class="container container-footer">
 
                 <div class="footer-left-container">
-                        <a class="logo-footer" href="./index.html"><span class="blue-logo">Web</span>Studio</a>
+                        <a class="logo logo__footer" href="./index.html"><span class="logo__decorated_blue">Web</span>Studio</a>
                         <!--CONTACTS-->
                         
                         <address class="contacts-list">
